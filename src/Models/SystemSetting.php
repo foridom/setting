@@ -23,7 +23,7 @@ class SystemSetting extends Model
     /**
      * @var array
      */
-    protected $guarded = ['id'];
+    protected $fillable = ['key', 'value'];
 
     /**
      * SystemSetting constructor.
